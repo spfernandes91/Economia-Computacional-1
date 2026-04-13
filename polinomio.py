@@ -24,18 +24,24 @@ while(i<=n ):
     a.append(aux)
     i=i +1
  
-#rint(* a)
+#print(* a)
 
 
 #Procesamento de dados
 i=0 
-while(i<n):
-    result =+a[i]* (x **i)
-    #rint(f'{a[i]}')
+while(i<=n):
+    result =result + a[i]* (x **n)
+    #print(f'{a[i]}')
+   # print(f'{n}')
     i=i+1
-    print(f'{result}')
-                        
+    n= n-1
+    
+
+result= result + a[i]
+
+print(f'{result}')                       
     
     
     
+
 
